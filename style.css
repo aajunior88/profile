@@ -1,0 +1,39 @@
+body{
+    background: rgba(189, 163, 134, 0.856);
+    font-weight: bold;
+    margin: 0 auto;
+    width: 70%; 
+}
+.HobbInt{
+    color: white;
+}
+
+#header{
+    background: darkblue;
+    color: white;
+}
+
+h1{
+    margin: 0 auto;
+    font-size: 100px;
+}
+
+
+#section li {
+    padding: 5px;
+}
+
+#aside li{
+    padding: 5px;
+}
+input label{ 
+    display: block;
+    padding: 5px;
+}
+
+#footer{
+    background: darkblue;
+    padding: 10px;
+    color: white;
+}
+
