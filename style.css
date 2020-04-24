@@ -1,39 +1,107 @@
-body{
-    background: rgba(189, 163, 134, 0.856);
-    font-weight: bold;
-    margin: 0 auto;
-    width: 70%; 
+body {
+    background-color: rgb(224, 217, 217);
+    font-size: 110%;
 }
-.HobbInt{
-    color: white;
+
+#container{
+    width: 850px;
+    margin: auto;
+    border-radius: 20px;
+    border: 5px solid;
+
 }
 
 #header{
-    background: darkblue;
+    background-color: rgba(28, 9, 112, 0.836);
+    text-align: center;
+    padding: 10px;
     color: white;
+    font-size: 150%;
+}
+a{
+    text-decoration: none;
 }
 
-h1{
-    margin: 0 auto;
-    font-size: 100px;
-}
-
-
-#section li {
-    padding: 5px;
-}
-
-#aside li{
-    padding: 5px;
-}
-input label{ 
+.ss{
+    width : 25px;
+    height: 25px;
     display: block;
-    padding: 5px;
+}
+
+#section img{
+    float: left;
+    padding-right: 50px;
+}
+
+#navbar{
+    float: left;
+    width: 200px;
+    padding: 20px;
+    height: 600px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: 0px;
+}
+
+#bioData{
+    clear: both;
+}
+
+#section{
+    float: right;
+    width: 550px;
+    padding: 20px;
+    height: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+}
+
+li{
+    padding: 2px;
+}
+    
+fieldset{
+    display: block;
+    background-color: rgb(216, 209, 209);
+    margin-bottom: 20px;
+      
+}
+
+form {
+    text-align: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input, select, textarea{
+    display: block;
+    padding: 10px;
+    width: 90%;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+}
+
+button{
+    background-color: rgba(28, 9, 112, 0.836);
+    padding: 12px;
+    color: white;
+    width: 95%;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 #footer{
-    background: darkblue;
+    clear: both;
+    background-color: rgba(28, 9, 112, 0.836);
+    text-align: center;
     padding: 10px;
     color: white;
 }
-
